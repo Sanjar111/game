@@ -25,6 +25,6 @@ while True:
     x, y = ball.position()
     if x >= 300 or x <=-300:
         dx = -dx
-    if y >= 300 or y <=-400:
+    if y >= 300 or y <=-500:
         dy = -dy
     ball.goto(x + dx, y + dy)
